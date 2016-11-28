@@ -27,4 +27,10 @@ public class Sessao {
     public void sair() {
 
     }
+    /**
+     * 
+     */
+    private void validar() {
+        
+    }
 }

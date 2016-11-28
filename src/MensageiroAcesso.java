@@ -1,14 +1,14 @@
 public interface MensageiroAcesso {
     /**
-     * 
-     * @param login
-     * @param senha
-     * @return 
+     * Entra na conta administrador
+     * @param login Login da conta
+     * @param senha Senha da conta
+     * @return true, caso sucesso<br/>false, caso contrário
      */
     public abstract boolean entrar(String login, String senha);
     /**
-     * 
-     * @return 
+     * Sai da conta administrador
+     * @return true, caso sucesso<br/>false, caso contrário
      */
     public abstract boolean sair();
 }

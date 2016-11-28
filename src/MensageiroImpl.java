@@ -1,36 +1,25 @@
 public class MensageiroImpl implements MensageiroAcesso, MensageiroVerifica {
-    /**
-     * 
-     * @param login
-     * @param senha
-     * @return 
-     */
+    //IMPLEMENTADOS
     @Override
     public boolean entrar(String login, String senha) {
             return false;
     }
-    /**
-     * 
-     * @return 
-     */
     @Override
     public boolean sair() {
             return false;
     }
-    /**
-     * 
-     * @param texto
-     * @return 
-     */
-    private String criptografar(String texto) {
-            return null;
-    }
-    /**
-     * 
-     * @return 
-     */
     @Override
     public boolean isUsuarioLogado() {
             return false;
+    }
+    
+    //METODOS
+    /**
+     * Criptografa o texto (senha), utilizando MD5
+     * @param texto Texto a ser criptografado
+     * @return Texto criptografado
+     */
+    private String criptografar(String texto) {
+            return null;
     }
 }

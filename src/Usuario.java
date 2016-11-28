@@ -38,12 +38,4 @@ public class Usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-    
-    //METODOS
-    /**
-     * 
-     */
-    private void validar() {
-
-    }
 }
