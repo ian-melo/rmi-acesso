@@ -1,39 +1,39 @@
 public class Usuario {
     //ATRIBUTOS
     /**
-     * 
+     * Nome de login
      */
     private String login;
     /**
-     * 
+     * Senha
      */
     private String senha;
 
     //GETTER SETTER
     /**
-     * 
-     * @return 
+     * Retorna nome de login
+     * @return Nome de login
      */
     public String getLogin() {
         return login;
     }
     /**
-     * 
-     * @param login 
+     * Define nome de login
+     * @param login Nome de login
      */
     public void setLogin(String login) {
         this.login = login;
     }
     /**
-     * 
-     * @return 
+     * Retorna senha
+     * @return Senha
      */
     public String getSenha() {
         return senha;
     }
     /**
-     * 
-     * @param senha 
+     * Define senha
+     * @param senha Senha 
      */
     public void setSenha(String senha) {
         this.senha = senha;
