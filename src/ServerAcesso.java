@@ -20,6 +20,6 @@ public class ServerAcesso {
             System.out.println("Erro: " + ex);
             System.exit(1);
         }
-        System.out.print("Servidor de acesso ativo...");
+        System.out.println("Servidor de acesso ativo...");
     }
 }
