@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Classe de conexão com banco de da dos
+ * Classe de conexão com banco de dados
  * @author SCS214
  */
 public class BancoDados {
